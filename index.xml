@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kristopher&#39;s Brain</title>
+    <link>https://DevFirstKristopher.github.io:12345/</link>
+    <description>Recent content on Kristopher&#39;s Brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Kristopher Sandoval</copyright>
+    <lastBuildDate>Thu, 17 Apr 2025 09:28:59 -0700</lastBuildDate>
+    <atom:link href="https://DevFirstKristopher.github.io:12345/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Iot and Mcp</title>
+      <link>https://DevFirstKristopher.github.io:12345/posts/002-on-iot-and-mcp/</link>
+      <pubDate>Thu, 17 Apr 2025 09:28:59 -0700</pubDate>
+      <guid>https://DevFirstKristopher.github.io:12345/posts/002-on-iot-and-mcp/</guid>
+      <description>&lt;p&gt;This &lt;a href=&#34;https://www.linkedin.com/in/kevinswiber/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3B090APMCfRQeaZh96528SPQ%3D%3D&#34;&gt;great post by Kevin Swiber&lt;/a&gt; got me thinking about the mid-2010s dream of the IoT and the concerns and issues it generated. This is going to be a bit stream-of-consciousness, but follow me on this.&lt;/p&gt;&#xA;&lt;p&gt;First, some background. During the heyday of IoT in the early-through-mid 2010s, there was this dream of having an interconnected network of devices using micro computing and the cloud to provide next-gen systems. One example I often gave was the idea of having a heart monitor IoT device that connected to your watch, local monitoring, your phone, etc., so that you could identify health issues, treat them, and monitor efficacy and safety over time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to my Digital Brain!</title>
+      <link>https://DevFirstKristopher.github.io:12345/posts/001-welcome-to-my-digital-brain/</link>
+      <pubDate>Wed, 16 Apr 2025 09:27:06 -0700</pubDate>
+      <guid>https://DevFirstKristopher.github.io:12345/posts/001-welcome-to-my-digital-brain/</guid>
+      <description>&lt;p&gt;Welcome to my blog! This is where I&amp;rsquo;ll be posting my ramblings and thoughts that are too long-form for LinkedIn, but too short for my typical publishing aveunes.&lt;/p&gt;&#xA;&lt;p&gt;If you want to reach out to me about a specific post, please use my &lt;a href=&#34;https://www.linkedin.com/in/krsando/&#34;&gt;LinkedIn&lt;/a&gt;!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

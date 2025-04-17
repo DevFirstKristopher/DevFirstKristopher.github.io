@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://DevFirstKristopher.github.io:12345/</loc>
+    <lastmod>2025-04-17T09:28:59-07:00</lastmod>
+  </url><url>
+    <loc>https://DevFirstKristopher.github.io:12345/posts/002-on-iot-and-mcp/</loc>
+    <lastmod>2025-04-17T09:28:59-07:00</lastmod>
+  </url><url>
+    <loc>https://DevFirstKristopher.github.io:12345/posts/</loc>
+    <lastmod>2025-04-17T09:28:59-07:00</lastmod>
+  </url><url>
+    <loc>https://DevFirstKristopher.github.io:12345/posts/001-welcome-to-my-digital-brain/</loc>
+    <lastmod>2025-04-16T09:27:06-07:00</lastmod>
+  </url><url>
+    <loc>https://DevFirstKristopher.github.io:12345/categories/</loc>
+  </url><url>
+    <loc>https://DevFirstKristopher.github.io:12345/tags/</loc>
+  </url>
+</urlset>

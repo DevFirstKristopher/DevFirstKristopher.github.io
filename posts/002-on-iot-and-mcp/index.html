@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=12345&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>On Iot and Mcp - Kristopher&#39;s Brain</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This great post by Kevin Swiber got me thinking about the mid-2010s dream of the IoT and the concerns and issues it generated. This is going to be a bit stream-of-consciousness, but follow me on this.
+First, some background. During the heyday of IoT in the early-through-mid 2010s, there was this dream of having an interconnected network of devices using micro computing and the cloud to provide next-gen systems. One example I often gave was the idea of having a heart monitor IoT device that connected to your watch, local monitoring, your phone, etc., so that you could identify health issues, treat them, and monitor efficacy and safety over time." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://DevFirstKristopher.github.io:12345/posts/002-on-iot-and-mcp/">
+  <meta property="og:site_name" content="Kristopher&#39;s Brain">
+  <meta property="og:title" content="On Iot and Mcp">
+  <meta property="og:description" content="This great post by Kevin Swiber got me thinking about the mid-2010s dream of the IoT and the concerns and issues it generated. This is going to be a bit stream-of-consciousness, but follow me on this.
+First, some background. During the heyday of IoT in the early-through-mid 2010s, there was this dream of having an interconnected network of devices using micro computing and the cloud to provide next-gen systems. One example I often gave was the idea of having a heart monitor IoT device that connected to your watch, local monitoring, your phone, etc., so that you could identify health issues, treat them, and monitor efficacy and safety over time.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-17T09:28:59-07:00">
+    <meta property="article:modified_time" content="2025-04-17T09:28:59-07:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="On Iot and Mcp">
+  <meta name="twitter:description" content="This great post by Kevin Swiber got me thinking about the mid-2010s dream of the IoT and the concerns and issues it generated. This is going to be a bit stream-of-consciousness, but follow me on this.
+First, some background. During the heyday of IoT in the early-through-mid 2010s, there was this dream of having an interconnected network of devices using micro computing and the cloud to provide next-gen systems. One example I often gave was the idea of having a heart monitor IoT device that connected to your watch, local monitoring, your phone, etc., so that you could identify health issues, treat them, and monitor efficacy and safety over time.">
+
+        <link href="https://DevFirstKristopher.github.io:12345/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://DevFirstKristopher.github.io:12345/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://DevFirstKristopher.github.io:12345/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css"   /><script type="text/javascript"
+		src="https://DevFirstKristopher.github.io:12345/js/MathJax.js"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel="stylesheet" href="https://DevFirstKristopher.github.io:12345/katex/katex.min.css ">
+		<script defer src="https://DevFirstKristopher.github.io:12345/katex/katex.min.js"></script>
+		<script defer src="https://DevFirstKristopher.github.io:12345/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+		</script>
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://DevFirstKristopher.github.io:12345/">Kristopher&#39;s Brain</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">On Iot and Mcp</h1>
+          <div class="meta">Posted on Apr 17, 2025</div>
+        </div>
+        
+        <section class="body">
+          <p>This <a href="https://www.linkedin.com/in/kevinswiber/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3B090APMCfRQeaZh96528SPQ%3D%3D">great post by Kevin Swiber</a> got me thinking about the mid-2010s dream of the IoT and the concerns and issues it generated. This is going to be a bit stream-of-consciousness, but follow me on this.</p>
+<p>First, some background. During the heyday of IoT in the early-through-mid 2010s, there was this dream of having an interconnected network of devices using micro computing and the cloud to provide next-gen systems. One example I often gave was the idea of having a heart monitor IoT device that connected to your watch, local monitoring, your phone, etc., so that you could identify health issues, treat them, and monitor efficacy and safety over time.</p>
+<p>The big concern I had then was around security - I talked about this on a <a href="https://lnkd.in/ghuXMDrX0">Nordic APIs LiveCast</a>, but my core theory evolved into &ldquo;this is a lot of danger and work for something that doesn&rsquo;t really do much more than dumb devices reporting to a local network&rdquo;.</p>
+<p>I felt like the security issues (hacking your body to kill a target was a serious concern I had for something like an IoT pacemaker) really weren&rsquo;t worth the minor gains in processing speed or code locality. It felt like we were exposing a lot of systems that didn&rsquo;t really need to be exposed, and while I certainly am no luddite, I felt like this was maybe a step too far - it would have to wait for some big evolution.</p>
+<p>Following Kevin&rsquo;s post (which I responded to <a href="https://lnkd.in/gVRuMn6D">here</a>), I started thinking about what these IoT use cases might look like with LLMs. Right now LLMs are by and large too big for local systems, but they&rsquo;re getting smaller and more efficient. As these systems evolve to be more portable, and local storage of 2025 scales in huge degrees compared to storage of 2005, I&rsquo;ve started to reconsider what I felt was the &ldquo;dead dream of IoT&rdquo;.</p>
+<p>Put simply, I am getting the feeling that a combinatory solution like SPIFFE for workload attestation paired with MCP servers to provide scalable contextualization might be that evolution I was waiting for. If the problem is safety, in theory workload attestation through SPIFFE/SPIRE should resolve a lot of those concerns. And if the issue was efficacy and locality of processing, a local mini-LLM leveraging cloud-based or local MCP resourcing to provide context (e.g. health records collected automatically, medicine guidelines (in the US, USPI) should resolve that issue handily if properly built out.</p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://www.linkedin.com/in/krsando/" rel="me" title="LinkedIn"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#linkedin" />
+</svg></a><a class="border"></a><a class="soc" href="mailto:kristopher@developerfirst.io" rel="me" title="Email"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#mail" />
+</svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2025  © Kristopher Sandoval |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>

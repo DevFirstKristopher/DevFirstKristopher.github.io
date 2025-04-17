@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Kristopher&#39;s Brain</title>
+    <link>https://DevFirstKristopher.github.io:12345/categories/</link>
+    <description>Recent content in Categories on Kristopher&#39;s Brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Kristopher Sandoval</copyright>
+    <atom:link href="https://DevFirstKristopher.github.io:12345/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
